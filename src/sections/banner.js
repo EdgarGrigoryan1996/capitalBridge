@@ -1,7 +1,8 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
+import {Button, jsx} from 'theme-ui';
 import { Container, Flex, Box, Heading, Text, Image } from 'theme-ui';
 import BannerThumb from 'assets/images/banner-thumb.svg';
+import Subscribe from "../components/subscribe";
 
 export default function Banner() {
   return (
@@ -9,12 +10,16 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Infallible Accounting Group: Expert Financial Solutions for the Trucking and Logistics Industry
+            Expert Financial Solutions forLogistics Partners
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Managing Your Finances with Precision and Care
+            Managing Your AR and overdue collections with Precision and Care
           </Text>
-          {/* <Subscribe /> */}
+          <a style={{textDecoration:"none",color:"unset"}} href="tel:+18888450048">
+          <Button sx={styles.button} aria-label="Contact Us">
+            Contact Us to Get Free Consultation Today
+          </Button>
+          </a>
         </Box>
 
         <Box sx={styles.banner.imageBox}>
@@ -26,6 +31,9 @@ export default function Banner() {
 }
 
 const styles = {
+  button:{
+    margin: ['0 auto','0 auto','0 auto','0 auto',0],
+  },
   banner: {
     overflow: ['hidden', 'initial', null, null, 'hidden'],
     pt: ['150px', '145px'],

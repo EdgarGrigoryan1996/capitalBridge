@@ -17,7 +17,7 @@ const data = {
   points: [
     {
       icon: <IoIosCheckmarkCircle color="#849184"/>,
-      text: 'Founded in 2022, Infallible Accounting Group provides specialized accounting services for the trucking and logistics industry. We focus on accounts receivables, managing unpaid invoices, and commercial debt collection.',
+      text: 'Founded in 2022, we provide specialized accounting services for logistics partners and focus on accounts receivables, managing unpaid invoices, and commercial debt collection.',
     },
     {
       icon: <IoIosCheckmarkCircle color="#849184"/>,

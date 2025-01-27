@@ -8,7 +8,7 @@ const data = [
     id: 1,
     title: 'Industry Expertise',
     text:
-      'Deep understanding of trucking and logistics',
+      'Our team consists of experts with years of experience in the field',
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ const data = [
     id: 6,
     title: 'Personalized Attention',
     text:
-        'Dedicated and reliable support',
+        ' Dedicated and reliable support with a dedicated Account Representative always available to cover your needs',
   },
 ];
 

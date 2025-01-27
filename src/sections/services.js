@@ -15,7 +15,7 @@ const data = [
     imgSrc: Invoices,
     altText: 'Lorem ipsum',
     title: 'Accounts Receivable Management',
-    texts:['Invoicing, tracking unpaid invoices, and implementing collection strategies','Managing customer credit and payment terms']
+    texts:['Invoicing, tracking unpaid invoices, and implementing collection strategies','Insuring customer reliability and on-time payments']
 
   },
   {
@@ -23,29 +23,29 @@ const data = [
     imgSrc: debt,
     altText: 'Lorem ipsum',
     title: 'Commercial Debt Collection',
-    texts:['Professional debt recovery strategies','Legal collaboration to resolve disputes and enforce accountability','Compliance with debt collection laws to protect your business']
+    texts:['Professional debt recovery strategies','Legal collaboration with licensed attorneys to resolve disputes and enforce accountability','Compliance with debt collection regulations to protect your business']
   },
   {
     id: 3,
     imgSrc: monitoring,
     altText: 'Lorem ipsum',
-    title: 'Cash Flow Management',
-    texts:['Monitoring, forecasting, and reporting cash flow']
-  },
-  {
-    id: 4,
-    imgSrc: forensic,
-    altText: 'Lorem ipsum',
-    title: 'Forensic Accounting',
-    texts:['Investigating discrepancies and providing litigation support']
-  },
-  {
-    id: 5,
-    imgSrc: consulting,
-    altText: 'Lorem ipsum',
     title: 'Consulting & Custom Solutions',
-    texts:['Tailored financial strategies and advisory services']
+    texts:['Tailored financial strategies and advisory services','Providing Budgeted/Actual Profit/Loss statements and other financial reports on demand']
   },
+  // {
+  //   id: 4,
+  //   imgSrc: forensic,
+  //   altText: 'Lorem ipsum',
+  //   title: 'Forensic Accounting',
+  //   texts:['Investigating discrepancies and providing litigation support']
+  // },
+  // {
+  //   id: 5,
+  //   imgSrc: consulting,
+  //   altText: 'Lorem ipsum',
+  //   title: 'Consulting & Custom Solutions',
+  //   texts:['Tailored financial strategies and advisory services']
+  // },
 ];
 
 export default function Services() {

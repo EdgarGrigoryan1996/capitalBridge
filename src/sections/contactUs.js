@@ -28,7 +28,7 @@ const data = {
     },
     {
       icon: <IoIosMail color="#849184"/>,
-      text: 'Email: eric@infallibleaccgroup.com',
+      text: 'Email: info@infallibleaccgroup.com',
     },
     {
       icon: <IoMdPin color="#849184"/>,
