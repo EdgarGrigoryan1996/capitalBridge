@@ -2,7 +2,7 @@
 import {Button, jsx} from 'theme-ui';
 import { Container, Flex, Box, Heading, Text, Image } from 'theme-ui';
 import BannerThumb from 'assets/images/banner-thumb.svg';
-import Subscribe from "../components/subscribe";
+
 
 export default function Banner() {
   return (
@@ -15,8 +15,8 @@ export default function Banner() {
           <Text as="p" variant="heroSecondary">
             Managing Your AR and overdue collections with Precision and Care
           </Text>
-          <a style={{textDecoration:"none",color:"unset"}} href="tel:+18888450048">
-          <Button sx={styles.button} aria-label="Contact Us">
+          <a style={{textDecoration:"none",color:"unset"}} sx={styles.button} href={`mailto:info@infallibleaccgroup.com`}>
+          <Button  aria-label="Contact Us">
             Contact Us to Get Free Consultation Today
           </Button>
           </a>

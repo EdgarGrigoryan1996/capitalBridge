@@ -9,23 +9,24 @@ import About from 'sections/about';
 import WhyChooseUs from 'sections/whyChooseUs';
 import ContactUs from 'sections/contactUs';
 
+
 export default function IndexPage() {
   return (
-    <ThemeProvider theme={theme}>
-      <Layout> 
-        <SEO
-          description="Infallible accounting group"
-          title="Infallible"
-        />
-        <Banner />
-        <About />
-        <Services />
-        <WhyChooseUs />
-        <ContactUs />
-        {/*<ContactUs />*/}
-        {/*<Knowledge />*/}
-        {/*<ClientFeedback />*/}
-      </Layout>
-    </ThemeProvider>
+      <>
+        <ThemeProvider theme={theme}>
+          <Layout>
+            <SEO
+                description="Infallible accounting group"
+                title="IAG"
+            />
+            <Banner />
+            <About />
+            <Services />
+            <WhyChooseUs />
+            <ContactUs />
+          </Layout>
+        </ThemeProvider>
+      </>
+
   );
 }
