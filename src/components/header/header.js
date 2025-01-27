@@ -15,7 +15,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={logo} />
+          <Logo sx={styles.logo} src={logo} />
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
@@ -62,6 +62,9 @@ const positionAnim = keyframes`
 `;
 
 const styles = {
+  logo:{
+    width: ["50%",'100%'],
+  },
   header: {
     py: [4, null, 5],
     width: '100%',

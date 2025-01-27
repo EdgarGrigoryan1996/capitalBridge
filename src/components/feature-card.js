@@ -1,5 +1,7 @@
 /** @jsx jsx */
 import { jsx, Image, Box, Heading, Text } from 'theme-ui';
+import {IoIosCheckmarkCircle} from "react-icons/io";
+import {MdDone} from "react-icons/all";
 
 export default function FeatureCard({
   src,
@@ -15,9 +17,14 @@ export default function FeatureCard({
         <Heading sx={{ variant: 'text.heading' }}>{title}</Heading>
         {texts.map((text,i) => {
           return (
-              <Text as="p" sx={styles.wrapper.description}>
-                {text}
-              </Text>
+
+
+                <Text as="p" sx={styles.wrapper.description}>
+
+                  <MdDone color="#849184"/> {text}
+                </Text>
+
+
           )
         })}
 
@@ -53,7 +60,8 @@ const styles = {
       fontSize: [1, 2],
       fontWeight: 'body',
       lineHeight: 1.9,
-      pt: 2,
+      position: 'relative',
+      pt: 1,
     },
   },
 };

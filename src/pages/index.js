@@ -6,8 +6,6 @@ import Layout from 'components/layout';
 import Banner from 'sections/banner';
 import Services from 'sections/services';
 import About from 'sections/about';
-import Knowledge from 'sections/knowledge';
-import ClientFeedback from 'sections/client-feedback';
 import WhyChooseUs from 'sections/whyChooseUs';
 import ContactUs from 'sections/contactUs';
 

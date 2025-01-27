@@ -20,9 +20,9 @@ export default function Footer() {
             {/*  <Link path="/" label="Terms of use" />*/}
             {/*  <Link path="/" label="Privacy" />*/}
             {/*</nav>*/}
-            {/*<Text as="p" sx={styles.copyrightArea.copyright}>*/}
-            {/*  Copyright by 2025 1337s*/}
-            {/*</Text>*/}
+            <Text as="p" sx={styles.copyrightArea.copyright}>
+              Copyright by ©Infallible 2025
+            </Text>
           </Box>
           <Flex sx={styles.footer.menuArea}>
             {menuItems &&
@@ -72,7 +72,7 @@ const styles = {
     },
     footerTopArea: {
       display: 'flex',
-      flexWrap: 'wrap',
+      flexWrap: ['wrap','wrap','nowrap'],
       pt: ['60px', null, null, null, 8],
       pb: [7, null, null, null, '30px'],
       pl: [0, null, 4, 6, null, 7],
@@ -150,10 +150,12 @@ const styles = {
     },
   },
   copyrightArea: {
-    width: ['100%', null, null, null, '250px', '300px'],
+    width: ['200px', '200px', '200px', '200px', '200px', '200px'],
     flexShrink: 0,
-    order: [2, null, null, null, 0],
-    textAlign: ['center', null, null, null, 'left'],
+    margin: '0 auto 50px auto',
+    textAlign: ['center', "center", "center", "center", 'left'],
+    order: [2, null, 0, 0, 0],
+
     '.footer__logo': {
       a: {
         mr: 0,
@@ -190,7 +192,8 @@ const styles = {
       },
     },
     copyright: {
-      fontSize: ['14px', 1],
+      fontSize: ['12px','13px'],
+      textAlign: 'center',
       color: '#6D7886',
       pt: 1,
     },

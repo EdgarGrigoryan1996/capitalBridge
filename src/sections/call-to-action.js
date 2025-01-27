@@ -42,7 +42,7 @@ const styles = {
     px: [0, '0 !important', '30px !important'],
   },
   contentBox: {
-    padding: ['55px 30px 60px', null, null, '55px 30px 60px', '55px 50px 60px'],
+    padding: ['40px 30px 45px', '35px 30px 40px', null, '55px 30px 60px', '55px 50px 60px'],
     backgroundColor: '#343D48',
     backgroundImage: ['none', null, null, `url(${BgShape})`],
     backgroundRepeat: 'no-repeat',
@@ -54,9 +54,10 @@ const styles = {
     textAlign: ['center', null, null, 'left'],
     flexDirection: ['column', null, null, 'row'],
     justifyContent: ['center', null, null, 'space-between'],
+    mt: [8,5,5,5,5],
   },
   heading: {
-    fontSize: [6, 7, 8, null, 9],
+    fontSize: [6, 6, 8, null, 9],
     fontFamily: 'heading',
     color: 'white',
     letterSpacing: 'heading',

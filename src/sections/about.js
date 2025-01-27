@@ -28,7 +28,7 @@ const data = {
 
 export default function About() {
   return (
-    <section sx={{ variant: 'section.profit' } } id="about">>
+    <section sx={{ variant: 'section.profit' } } id="about">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={AboutImage} alt="Thumbnail" width="700" height="565" />
