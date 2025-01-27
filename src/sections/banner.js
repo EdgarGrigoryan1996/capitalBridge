@@ -15,7 +15,7 @@ export default function Banner() {
           <Text as="p" variant="heroSecondary">
             Managing Your AR and overdue collections with Precision and Care
           </Text>
-          <a style={{textDecoration:"none",color:"unset"}} sx={styles.button} href={`mailto:info@infallibleaccgroup.com`}>
+          <a style={{textDecoration:"none",color:"unset"}} sx={styles.button} href={`mailto:info@infallibleaccgroup.com?subject=&body=`}>
           <Button  aria-label="Contact Us">
             Contact Us to Get Free Consultation Today
           </Button>
