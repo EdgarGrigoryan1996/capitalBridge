@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx, Image, Box, Heading, Text } from 'theme-ui';
-import {IoIosCheckmarkCircle} from "react-icons/io";
-import {MdDone} from "react-icons/all";
+import {MdDone} from "react-icons/md";
 
 export default function FeatureCard({
   src,
@@ -21,7 +20,8 @@ export default function FeatureCard({
 
                 <Text as="p" sx={styles.wrapper.description}>
 
-                  <MdDone color="#849184"/> {text}
+                  <MdDone color="#849184"/>
+                  {text}
                 </Text>
 
 
