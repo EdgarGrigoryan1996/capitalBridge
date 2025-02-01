@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaGithub, FaDribbble } from 'react-icons/fa';
+import { FaLinkedinIn} from 'react-icons/fa';
 
 export default [
   {
@@ -25,23 +25,12 @@ export default [
   {
     header: 'Contact',
     items: [
+
       {
-        path: '/',
-        label: 'Facebook',
-        name: 'facebook',
-        icon: <FaFacebook />,
-      },
-      {
-        path: '/',
-        label: 'Twitter',
-        name: 'twitter',
-        icon: <FaTwitter />,
-      },
-      {
-        path: '/',
-        label: 'Github',
-        name: 'github',
-        icon: <FaGithub />,
+        path: 'https://www.linkedin.com/company/infallible-accounting-group/',
+        label: 'Linkedin',
+        name: 'Linkedin',
+        icon: <FaLinkedinIn />,
       },
     ],
   },

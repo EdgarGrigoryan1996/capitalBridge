@@ -6,30 +6,16 @@ import { DrawerContext } from '../../contexts/drawer/drawer.context';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-scroll';
 import {
-  FaFacebookF,
-  FaTwitter,
-  FaGithubAlt,
-  FaDribbble,
+   FaLinkedinIn,
 } from 'react-icons/fa';
 import menuItems from './header.data';
 
 const social = [
   {
-    path: 'https://www.facebook.com',
-    icon: <FaFacebookF />,
+    path: 'https://www.linkedin.com/company/infallible-accounting-group/',
+    icon: <FaLinkedinIn />,
   },
-  {
-    path: 'https://twitter.com/',
-    icon: <FaTwitter />,
-  },
-  {
-    path: 'https://github.com/',
-    icon: <FaGithubAlt />,
-  },
-  {
-    path: 'https://dribbble.com/',
-    icon: <FaDribbble />,
-  },
+
 ];
 
 const MobileDrawer = () => {
@@ -40,6 +26,13 @@ const MobileDrawer = () => {
     dispatch({
       type: 'TOGGLE',
     });
+
+  }, [dispatch]);
+  const closeHandler = React.useCallback(() => {
+    dispatch({
+      type: 'CLOSE',
+    });
+
   }, [dispatch]);
 
   return (
@@ -68,6 +61,7 @@ const MobileDrawer = () => {
                 offset={-70}
                 duration={500}
                 key={i}
+                onClick={closeHandler}
               >
                 {label}
               </Link>

@@ -3,12 +3,9 @@ import { jsx, Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 import {
-  IoIosCheckmarkCircle, IoIosLocate,
   IoIosMail,
-  IoIosMap,
-  IoIosPhoneLandscape,
   IoIosPhonePortrait,
-  IoMdMap, IoMdPin
+  IoMdPin
 } from 'react-icons/io';
 
 import ContactImage from 'assets/images/contact.svg';

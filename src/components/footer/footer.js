@@ -38,6 +38,7 @@ export default function Footer() {
                         path={path}
                         key={i}
                         sx={styles.footer.link}
+                        target="_blank"
                       >
                         {icon}
                         {label}
@@ -129,17 +130,11 @@ const styles = {
         fontSize: ['12px',1,2,3],
         flexShrink: 0,
       },
-      '&.facebook > svg': {
-        color: '#3B5998',
+      '&.Linkedin > svg': {
+        color: '#0A66C2',
       },
-      '&.twitter > svg': {
-        color: '#55ACEE',
-      },
-      '&.github > svg': {
-        color: '#161614',
-      },
-      '&.dribbble > svg': {
-        color: '#E74D89',
+      '&.Linkedin': {
+        color: '#02073E',
       },
       ':hover': {
         color: 'primary',

@@ -11,6 +11,12 @@ function reducer(state, action) {
         ...state,
         isOpen: !state.isOpen,
       };
+      case 'CLOSE':{
+        return {
+          ...state,
+          isOpen: false,
+        }
+      }
     default:
       return state;
   }

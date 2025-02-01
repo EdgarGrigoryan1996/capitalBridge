@@ -8,6 +8,7 @@ export default function SEO({
   title = 'IAG',
 }) {
   const metaData = [
+
     {
       name: `description`,
       content: description,
@@ -44,6 +45,7 @@ export default function SEO({
   return (
     <Head>
       <title>{title}</title>
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       {metaData.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />
       ))}

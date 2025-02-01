@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import {Button, jsx} from 'theme-ui';
-import { Container, Flex, Box, Heading, Text, Image } from 'theme-ui';
+import { Container, Box, Heading, Text, Image } from 'theme-ui';
 import BannerThumb from 'assets/images/banner-thumb.svg';
 
 
