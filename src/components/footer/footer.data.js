@@ -35,8 +35,8 @@ export default [
       },
       {
         path: `mailto:info@infallibleaccgroup.com?subject=&body=`,
-        label: 'info@infallibleaccgroup.com',
-        name: 'info@infallibleaccgroup.com',
+        label: 'Email Us',
+        name: 'Email Us',
         icon: <IoIosMail color="#849184"/>,
       },
     ],
