@@ -6,19 +6,19 @@ export default [
     header: 'Menu',
     items: [
       {
-        path: '#home',
+        path: 'home',
         label: 'Home',
       },
       {
-        path: '#about',
+        path: 'about',
         label: 'About us',
       },
       {
-        path: '#services',
+        path: 'services',
         label: 'Services',
       },
       {
-        path: '#whyChooseUs',
+        path: 'whyChooseUs',
         label: 'Why Choose Us',
       },
     ],

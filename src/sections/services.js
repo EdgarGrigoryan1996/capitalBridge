@@ -6,8 +6,7 @@ import FeatureCard from 'components/feature-card.js';
 import Invoices from 'assets/feature/invoices.svg';
 import debt from 'assets/feature/debt.svg';
 import monitoring from 'assets/feature/monitoring.svg';
-import forensic from 'assets/feature/forensic.svg';
-import consulting from 'assets/feature/consulting.svg';
+
 
 const data = [
   {

@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, Heading, Box, Text, Flex, Container } from 'theme-ui';
 import { Link } from 'components/link';
+import { Link as LinkScroll} from 'react-scroll';
 import Logo from 'components/logo';
 import menuItems from './footer.data';
 
@@ -16,10 +17,7 @@ export default function Footer() {
             <Box className="footer__logo">
               <Logo src={FooterLogo} />
             </Box>
-            {/*<nav className="footer__menu">*/}
-            {/*  <Link path="/" label="Terms of use" />*/}
-            {/*  <Link path="/" label="Privacy" />*/}
-            {/*</nav>*/}
+
             <Text as="p" sx={styles.copyrightArea.copyright}>
               Copyright by ©Infallible 2025
             </Text>
@@ -32,18 +30,43 @@ export default function Footer() {
                     {header}
                   </Heading>
                   <nav>
-                    {items?.map(({ path, label, name, icon }, i) => (
-                      <Link
-                        className={name}
-                        path={path}
-                        key={i}
-                        sx={styles.footer.link}
-                        target="_blank"
-                      >
-                        {icon}
-                        {label}
-                      </Link>
-                    ))}
+                    {items?.map(({ path, label, name, icon },index) => {
+                      if(i === 0){
+                        return (
+                            <LinkScroll
+                                className={name}
+                                to={path}
+                                key={index}
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                sx={styles.footer.link}
+
+                            >
+                              {label}
+                            </LinkScroll>
+                        )
+                      }
+                      else {
+                        return (
+                            <Link
+                                className={name}
+                                path={path}
+                                key={index}
+                                sx={styles.footer.link}
+                                target={i > 0 ? '_blank' : undefined}
+                            >
+                              {icon}
+                              {label}
+                            </Link>
+                        )
+                      }
+
+                    }
+
+
+                    )}
                   </nav>
                 </Box>
               ))}
@@ -112,9 +135,7 @@ const styles = {
 
     link: {
       fontSize: ['14px', 1],
-      color: 'text_secondary',
-      scrollBehavior: 'smooth',
-      webkitScrollBehavior: 'smooth',
+      color: '#0F2137',
       fontWeight: 'body',
       mb: 2,
       cursor: 'pointer',
@@ -134,7 +155,7 @@ const styles = {
         color: '#0A66C2',
       },
       '&.Linkedin': {
-        color: '#02073E',
+        color: '#0F2137',
       },
       ':hover': {
         color: 'primary',
