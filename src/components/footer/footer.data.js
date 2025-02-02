@@ -1,4 +1,5 @@
 import { FaLinkedinIn} from 'react-icons/fa';
+import {IoIosMail} from "react-icons/io";
 
 export default [
   {
@@ -31,6 +32,12 @@ export default [
         label: 'Linkedin',
         name: 'Linkedin',
         icon: <FaLinkedinIn />,
+      },
+      {
+        path: `mailto:info@infallibleaccgroup.com?subject=&body=`,
+        label: 'info@infallibleaccgroup.com',
+        name: 'info@infallibleaccgroup.com',
+        icon: <IoIosMail color="#849184"/>,
       },
     ],
   },

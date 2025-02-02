@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 export default function SEO({
   description = 'Infallible Accounting Group',
-  author = 'Edgar',
+  author = 'Serik',
   meta,
   title = 'IAG',
 }) {

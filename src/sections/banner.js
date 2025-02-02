@@ -10,7 +10,7 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Expert Financial Solutions forLogistics Partners
+            Expert Financial Solutions for Logistics Partners
           </Heading>
           <Text as="p" variant="heroSecondary">
             Managing Your AR and overdue collections with Precision and Care
