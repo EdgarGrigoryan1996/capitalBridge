@@ -1,12 +1,11 @@
-# persa_app
+# Infallible Accaunting Group
 
-Template built using NextJS
+Page built using NextJS
 
-<a href="https://persa-app-git-master-xd-ob.vercel.app/">Live Demo here!</a>
+<a href="https://www.infallibleaccgroup.com/">Visit here!</a>
 
 ## Owners
-- **Belouche Oussama** 1337
-- ** Elouargui Anas** 1337
+- **Edgar Grigoryan** 
 
 #
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)

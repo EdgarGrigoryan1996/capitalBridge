@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://persa-app-hwm9vtt93.vercel.app/',
+  siteUrl: 'https://www.infallibleaccgroup.com/',
   generateRobotsTxt: true,
 };
