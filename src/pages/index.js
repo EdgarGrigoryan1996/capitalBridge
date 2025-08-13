@@ -16,8 +16,8 @@ export default function IndexPage() {
         <ThemeProvider theme={theme}>
           <Layout>
             <SEO
-                description="Infallible accounting group"
-                title="IAG"
+                description="Capital Bridge accounting group"
+                title="Capital Bridge"
             />
             <Banner />
             <About />
