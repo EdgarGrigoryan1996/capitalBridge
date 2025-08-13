@@ -20,7 +20,7 @@ export default function FeatureCard({
 
                 <Text as="p" sx={styles.wrapper.description}>
 
-                  <MdDone color="#849184"/>
+                  <MdDone color="#164EA2"/>
                   {text}
                 </Text>
 

@@ -4,7 +4,7 @@ import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 
-import AboutImage from 'assets/images/about.svg';
+import AboutImage from 'assets/images/about.png';
 import DrawingArrow from 'assets/drawing-arrow.svg';
 
 const data = {
@@ -16,11 +16,11 @@ const data = {
   // btnURL: '#',
   points: [
     {
-      icon: <IoIosCheckmarkCircle color="#849184"/>,
+      icon: <IoIosCheckmarkCircle color="#164EA2"/>,
       text: 'Founded in 2022, we provide specialized accounting services for logistics partners and focus on accounts receivables, managing unpaid invoices, and commercial debt collection.',
     },
     {
-      icon: <IoIosCheckmarkCircle color="#849184"/>,
+      icon: <IoIosCheckmarkCircle color="#164EA2"/>,
       text: 'By collaborating with legal professionals when necessary, we deliver reliable, transparent, and tailored financial solutions that help businesses overcome challenges and thrive.',
     },
   ],

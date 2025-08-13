@@ -27,17 +27,12 @@ export default [
     header: 'Contact',
     items: [
 
+
       {
-        path: 'https://www.linkedin.com/company/infallible-accounting-group/',
-        label: 'Linkedin',
-        name: 'Linkedin',
-        icon: <FaLinkedinIn />,
-      },
-      {
-        path: `mailto:info@infallibleaccgroup.com?subject=&body=`,
+        path: `mailto:contact@capitalbridge.ru?subject=&body=`,
         label: 'Email Us',
         name: 'Email Us',
-        icon: <IoIosMail color="#849184"/>,
+        icon: <IoIosMail color="#164EA2"/>,
       },
     ],
   },

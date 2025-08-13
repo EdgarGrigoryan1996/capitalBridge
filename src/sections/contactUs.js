@@ -20,23 +20,23 @@ const data = {
   // btnURL: '#',
   points: [
     {
-      icon: <IoIosPhonePortrait color="#849184"/>,
-      text: 'Phone: +1 (888) 845 0048',
+      icon: <IoIosPhonePortrait color="#164EA2"/>,
+      text: 'Phone: +7 (495) 123-45-67',
     },
     {
-      icon: <IoIosMail color="#849184"/>,
-      text: 'Email: info@infallibleaccgroup.com',
+      icon: <IoIosMail color="#164EA2"/>,
+      text: 'Email: contact@capitalbridge.ru',
     },
     {
-      icon: <IoMdPin color="#849184"/>,
-      text: 'Address: 11700 Woodley Ave, Granada Hills, CA 91344',
+      icon: <IoMdPin color="#164EA2"/>,
+      text: 'Address: 46, building 1, Friedrich Engels Street',
     },
   ],
 };
 
 export default function ContactUs() {
   return (
-    <section sx={{ variant: 'section.profit' } } id="contact">
+    <section sx={styles.containerBox} id="contact">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ContactImage} alt="Thumbnail" width="700" height="565" />
@@ -65,6 +65,7 @@ const styles = {
     justifyContent: ['flex-Start', null, null, 'space-between'],
     flexWrap: ['wrap', null, null, 'nowrap'],
     pb: [0, null, null, null, null, null, null, 8],
+    backgroundColor: 'white',
   },
   thumbnail: {
     pr: [2, null, 7, 4, 7, 8, null, 10],
