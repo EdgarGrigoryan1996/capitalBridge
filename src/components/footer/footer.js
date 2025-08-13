@@ -19,7 +19,7 @@ export default function Footer() {
             </Box>
 
             <Text as="p" sx={styles.copyrightArea.copyright}>
-              Copyright by ©Infallible 2025
+              Copyright by ©Capital Bridge 2025
             </Text>
           </Box>
           <Flex sx={styles.footer.menuArea}>
